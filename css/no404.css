@@ -1,0 +1,79 @@
+#main{
+	width: 750px;
+	height: 250px;
+	margin: 200px auto;
+}
+.anniu{
+	position: relative;
+	right: 	2%;
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 1px solid #141414;
+	text-align: center;
+	line-height: 50px;
+	transition: 0.3s;
+}
+.anniu a{
+	color: #151515;
+	transition: 0.3s;
+}
+.anniu:hover{
+	border: 3px solid #111;
+
+}
+.anniu:hover a{
+	font-size: 24px;
+	font-weight: bold;
+}
+/* 列表 */
+.liebiao{
+	position: absolute;
+	top: 30%;left: 0;
+	z-index: 100!important;
+	width: 200px;
+	height: 280px;
+	background-color:rgba(255,253,239,0.6);
+	border-radius: 5px;
+	border: 2px solid #444;
+	transition: all 0.3s ease-out;
+	transform: translate(-100%);
+}
+.liebiao:hover{
+	transform: translate(0%);
+}
+.liebiao .bian{
+	width: 100px;
+	height: 20px;
+	margin: 40px auto;
+}
+.liebiao .bian li{
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #444;
+}
+.liebiao .bian li:hover{
+	transform: scale(1.3);
+		color: #222;
+}
+.liebiao h2{
+	text-align: center;
+	margin: 40px 0;
+	color: #222;
+	transition: all 0.2s;
+}
+.liebiao h2:hover{
+	transform: scale(1.3);
+}
+.liebiao .shou{
+	position: absolute;
+	top: 35%;left: 202px;
+	width: 5px;
+	height: 100px;
+	background-color:rgba(255,253,239,0.9);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 2px solid #444;
+	border-left: none;
+}

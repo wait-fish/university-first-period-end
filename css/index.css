@@ -1,0 +1,335 @@
+body{
+	background: url(../images/back.png) no-repeat;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #000;
+}
+#up{
+	position: fixed;
+	bottom: 10%; right: 5%;
+	right:50px; bottom: 50px;
+}
+#lianxi{
+	position: fixed;
+	z-index: 200!important;
+	width: 100px;
+	height: 50px;
+	font-family: "仿宋";
+	font-weight: blod;
+	border: 2px solid #404040;
+	border-radius: 10px;
+	background-color: #F7F7F7;
+	padding-top: 8px;
+	text-align: center;
+	animation: lianxi 35s linear infinite alternate;
+	opacity: 0.9;
+}
+#lianxi:hover{
+	animation-play-state: paused;
+}
+#lianxi a:hover p{
+	color: #25f1b0;
+}
+#lianxi a: p{
+	color: #111111;
+}
+@keyframes lianxi{
+	0%   {left: 94%; top: 8%;}
+	2%   {left: 80%; top: 13%;}
+	5%   {left: 90%; top: 23%;}
+	15%   {left: 50%%; top: 73%; opacity: 0.3;}
+	25%  {left: 1%; top: 92%; opacity: 0.7;}
+	50%  {left: 35%; top:30%; opacity: 0.1;}
+	55%  {left: 0px; top:200px; opacity: 1;}
+	80%  {left: 93%; top: 77%;}
+	100% { left: 50%; top:66%; opacity: 0.5;}
+}
+#lianxi p{
+	color: #969896;
+}
+/* 头部 */
+#head{
+	width: 1200px;
+	height: 400px;
+	margin: 40px auto;
+}
+#head nav div {
+	float: left;
+}
+#head nav{
+	width: 1200px;
+	height: 48px;
+	margin: 0 auto;
+}
+#head nav .conter {
+	width: 300px;
+	height: 48px;
+	margin-left: 30%;
+	line-height: 48px;
+}
+#head nav .conter a{
+	font-size: 20px;
+	color: #000000;
+}
+
+#head nav .conter a{
+	height: 48px;
+	display: inline-block;
+	margin-left: 40px;
+	transition: all 0.3s ease;
+}
+#head nav .conter a:hover{
+	color: #FFFDEF;
+	background-color: #111111;
+	border-radius: 15px 33px 5px 25px;
+}
+/* list */
+#head nav .left:hover .list{
+	-webkit-transform: translate(0%);
+	-moz-transform: translate(0%);
+	-ms-transform: translate(0%);
+	-o-transform: translate(0%);
+	transform: translate(0%);
+}
+#head nav .list{
+	transition: all 0.4s ease-in;
+	position: absolute;
+	z-index: 200!important;
+	top: 0;left: 0;
+	width: 400px;
+	height: 700px;
+	background-color: #111;
+	-webkit-transform: translate(-100%);
+	-moz-transform: translate(-100%);
+	-ms-transform: translate(-100%);
+	-o-transform: translate(-100%);
+	transform: translate(-100%);
+}
+#head nav .list img:first-child{
+	float: right;
+}
+#head nav .list .box{
+	color: #F7F7F7;
+	width: 300px;
+	height: 500px;
+	margin: 70px 0 0 50px;
+}
+#head nav .list .box h3{
+	font-size: 30px;
+}
+#head nav .list .box p{
+	color: #888;
+	display: block;
+	margin: 10px 0;
+}
+.iconfont {
+  font-family: "myfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  color: #999;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#head nav .list .box .ziti{
+	width: 300px;
+	height: 40px;
+}
+#head nav .list .box .ziti li{
+	width: 35px;
+	height: 35px;
+	overflow: hidden;
+	float: left;
+	margin: 10px 0 0 30px ;
+	font-size: 35px;
+	transition: all 0.3s ease;
+}
+#head nav .list .box .ziti li:hover{color: #25f1b0;}
+#head nav .list .box .wenzi {
+	margin-top: 30px;
+}
+#head nav .list .box .wenzi li{
+	margin: 15px 0 0 10px;
+	transition: all 0.3s ease;
+	font-weight: bold;
+} 
+#head nav .list .box .wenzi li:hover{color: #25f1b0;}
+#head nav .right{
+	margin-left: 100px;
+	left: 70%;
+	width: 250px;
+	height: 48px;
+	border: 2px solid #111;
+	border-radius: 24px;
+	padding-left: 40px;
+	background: url(../images/sous.png) no-repeat;
+	line-height: 46px;
+	box-sizing: border-box;
+}
+#head nav .right input{
+	top: 49px;
+	width: 180px;
+	height: 30px;
+}
+/* 主体 */
+#head .zhuti{
+	width: 1000px;
+	height: 350px;
+	margin: 0 auto;
+}
+#head .zhuti .ziti{
+	width: 300px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+#head .zhuti .ziti a{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+#head .zhuti .ziti li{
+	float: left;
+	font-size: 40px;
+	margin: 10px 0 10px 40px;
+	transition: 0.5s;
+}
+#head .zhuti .ziti li:hover{
+	transform: rotate(360deg) scale(1.2);
+	color: #25f1b0;
+	font-weight: blod;
+}
+#head .zhuti .zhognjian{
+	width: 650px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+#head .zhuti .zhognjian h1:hover{
+	transform: scale(1.3);
+}
+#head .zhuti .zhognjian h1{
+	display: block;
+	font-size: 50px;
+	margin-bottom: 20px;
+	transition: all 0.5s ease;
+	transform: scale(1);
+}
+/* 画廊 */
+#hualang {
+	width: 100%;
+}
+#hualang .neirong{
+	width: 1220px;
+	height: 800px;
+	margin: 0 auto;
+}
+#hualang .neirong li{
+	width: 255px;
+	height: 420px;
+	margin: 10px 20px;
+	float: left;
+	position: relative;
+}
+#hualang .neirong li .wenben{
+	width: 255px;
+	height: 20px;
+	margin-top: 5px;
+	border-top: 1px solid #E9E9E9;
+	position: relative;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: #999;
+	font-size: 13px;
+}
+#hualang .neirong li .wenben p{
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+}
+#hualang .neirong li .wenben a{
+	color: #25f1b0;
+}
+#hualang .neirong li .wenben a:nth-child(3){
+	display: inline-block;
+	margin-left: 80px;
+}#hualang .neirong li .wenben span:hover{
+	color: #25f1b0;
+}
+#hualang .neirong li .touming{
+	width: 265px;
+	height: 382px;
+	background-color: rgba(37,241,176,0.5);
+	position: absolute;
+	top: 0;left: 0;
+	color: #F7F7F7;
+	opacity: 0;
+	transition: all 0.5s ease;
+} 
+#hualang .neirong li:nth-child(even):hover .touming{
+	opacity: 1;
+}
+#hualang .neirong li:nth-child(odd):hover .touming{
+ 	opacity: 1;
+	transform: rotatey(360deg);
+ } 
+#hualang .neirong li .touming dl{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+#hualang .neirong li .touming em{
+	font-size: 30px;
+}
+#hualang .neirong li .tibu{
+	width: 265px;
+	height: 300px;
+}
+#hualang .neirong li .tibu div{
+	position: absolute;
+	bottom: 30%; left: 0;
+}
+#hualang .neirong li .tibu div h6{
+	font-size: 20px;
+	color: #25f1b0;
+	font-weight: normal;
+}
+#hualang .neirong li .tibu div em{
+	font-size: 19px;
+	font-family: "宋体";
+}
+/* 页脚 */
+footer {
+	width: 100%;
+	height: 200px;
+	font-weight: blod;
+}
+footer .ziti{
+	width: 300px;
+	height: 40px;
+	margin: 0 auto;
+}
+footer .ziti li{
+	float: left;
+	font-size: 40px;
+	margin: 90px 20px 5px 0;
+	transition: 0.5s;
+}
+footer .ziti li:hover{
+	transform: rotatey(360deg) scale(1.2);
+	color: #25f1b0;
+
+}
+footer p{
+	display: block;
+	width: 300px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 110px;
+	color: #999;
+}
+footer p span{
+	color: #25f1b0;
+}

@@ -1,0 +1,27 @@
+body,img,li,ul,dl,dd,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+a{
+	text-decoration: none;
+	color: #F7F7F7;
+}
+@font-face {
+  font-family: 'myfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/iconfont.woff2') format('woff2'),
+      url('../fonts/iconfont.woff') format('woff'),
+      url('../fonts/iconfont.ttf') format('truetype'),
+      url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+input,textarea{
+	resize: none;
+	outline: none;
+	border: none;
+}
+.fade{
+	display: none;
+}
